@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageButton"
+            android:drawableTop="@drawable/cross"
+            android:layout_weight="1"
+            android:text="Hospital"
+            android:textSize="10dp"
+            android:onClick="onHospitalClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageButton2"
+            android:drawableTop="@drawable/pill"
+            android:layout_weight="1"
+            android:text="Reminder"
+            android:textSize="10dp"
+            android:onClick="onReminderClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageButton3"
+            android:drawableTop="@drawable/alert"
+            android:layout_weight="1"
+            android:text="Red Alert!"
+            android:textSize="10dp"
+            android:onClick="onAlertClick" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This feature alerts your doctor, your emergency contact and 3 ambulance providers!"
+        android:id="@+id/textView9"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help will arrive soon!"
+        android:id="@+id/textView10"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the button if you are sure to do this!"
+        android:id="@+id/textView11"
+        android:textSize="20dp"
+        android:textColor="#ffff2720"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert!"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="onRedButtonClick" />
+
+</LinearLayout>

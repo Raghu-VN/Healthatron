@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageButton"
+            android:drawableTop="@drawable/cross"
+            android:layout_weight="1"
+            android:text="Hospital"
+            android:textSize="10dp"
+            android:onClick="onHospitalClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageButton2"
+            android:drawableTop="@drawable/pill"
+            android:layout_weight="1"
+            android:text="Reminder"
+            android:textSize="10dp"
+            android:onClick="onReminderClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageButton3"
+            android:drawableTop="@drawable/alert"
+            android:layout_weight="1"
+            android:text="Red Alert!"
+            android:textSize="10dp"
+            android:onClick="onAlertClick" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The feature &quot;Reminder&quot; is under implementation!"
+        android:id="@+id/textView9" />
+
+</LinearLayout>

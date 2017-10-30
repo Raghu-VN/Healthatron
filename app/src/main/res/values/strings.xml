@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Healthatron</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Specialities">
+        <item>Pediatrics</item>
+        <item>Ophthalmology</item>
+        <item>Gynaecology</item>
+        <item>Cardiology</item>
+        <item>Dental Sciences</item>
+        <item>ENT</item>
+        <item>General Physician</item>
+        <item>Sports Medicine</item>
+        <item>Yoga Therapy</item>
+    </string-array>
+    <string-array name="Patients">
+        <item>Raghu</item>
+        <item>Sheela</item>
+    </string-array>
+    <string name="title_activity_splash2">Splash2Activity</string>
+</resources>
